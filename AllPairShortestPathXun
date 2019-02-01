@@ -1,0 +1,77 @@
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.WriteAbortedException;
+import java.util.PrimitiveIterator.OfDouble;
+
+
+public class AllPairShortestPathXun {
+	
+	void computeAllPairShortestPath() throws IOException{
+		// compute all pair shortest path of a network
+		
+		if (SigRoutesMain.ifLoadFromFile == false) { // compute ASP
+			for (int i = 0; i < NetworkDataset.numTotalNodes; i++) {		
+				NodeXun rootNode = NetworkDataset.nodeHashMap.get(NetworkDataset.nodeIDList.get(i));
+				if (rootNode.ifActiveNode == true) { // only compute SP-trees that are rooted at active nodes
+					ShortestPathUtilityXun.shortestPathTreeHashMap.put(rootNode.nodeID, new ShortestPathTreeXun());
+					ShortestPathUtilityXun.shortestPathTreeHashMap.get(rootNode.nodeID).singleSourceShortestPath(rootNode.nodeID);					
+				}
+			}
+			SaveToFile saveToFile = new SaveToFile();
+			saveToFile.writeASPHashMap();
+			saveToFile.writeSPTreeHashMap();
+		}
+		
+		else { // load ASP from file
+			for (int i = 0; i < NetworkDataset.numTotalNodes; i++) {		
+				NodeXun rootNode = NetworkDataset.nodeHashMap.get(NetworkDataset.nodeIDList.get(i));
+				if (rootNode.ifActiveNode == true) { // only compute SP-trees that are rooted at active nodes
+					ShortestPathUtilityXun.shortestPathTreeHashMap.put(rootNode.nodeID, new ShortestPathTreeXun());
+				}
+			}
+			LoadFromFile loadFromFile = new LoadFromFile();
+			loadFromFile.readASPHashMap();
+			loadFromFile.readSPTreeHashMap();
+//			SaveToFile saveToFile = new SaveToFile();
+//			saveToFile.writeASPHashMap();
+//			saveToFile.writeSPTreeHashMap();
+		}
+	}
+	
+	public static void main(String[] args) throws IOException {
+		
+		String nodePath = "/Users/tangxun/Desktop/sig_routes_tkde/synthetic_data/new_nodes_500.txt";
+		String edgePath = "/Users/tangxun/Desktop/sig_routes_tkde/synthetic_data/new_edges_500.txt";
+		String activityPath = "/Users/tangxun/Desktop/sig_routes_tkde/synthetic_data/new_activities_500n_400.txt";
+		
+		AllPairShortestPathXun allPairShortestPathXun = new AllPairShortestPathXun();
+		NetworkDataset myNetworkDataset = new NetworkDataset();
+		myNetworkDataset.readNode(nodePath);
+		myNetworkDataset.readEdge(edgePath);
+		myNetworkDataset.readActivity(activityPath);
+
+		int count1 = 0;
+		for (int i = 0; i < NetworkDataset.nodeIDList.size(); i++) {
+			if (NetworkDataset.nodeHashMap.get(NetworkDataset.nodeIDList.get(i)).ifActiveNode == true) {
+				count1++;
+			}
+		}
+		int count2 = 0;
+		for (int i = 0; i < NetworkDataset.edgeIDList.size(); i++) {
+			if (NetworkDataset.edgeHashMap.get(NetworkDataset.edgeIDList.get(i)).ifActiveEdge == true) {
+				count2++;
+			}
+		}
+		System.out.println("active node number = " + count1 + " active edge number = " + count2);
+		
+		long time1 = System.currentTimeMillis();
+		allPairShortestPathXun.computeAllPairShortestPath();
+		long time2 = System.currentTimeMillis();
+		
+		System.out.println();
+		System.out.println("time: " + (time2-time1));
+		
+		
+		System.out.println("SP tree table size = " + ShortestPathUtilityXun.shortestPathTreeHashMap.size());
+	}
+}
