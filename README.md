@@ -1,4 +1,12 @@
-# LinearHotspot
+# Significant Linear Hotspot Discovery
 ## Content
-Intro of Linear Hotspot Concept
+Motivation
+
+Algorithm Explaintion(Definition)
+
+Usage (Code Explaintion)
+
+Case Study
+
+Future Attribution
 
