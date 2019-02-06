@@ -22,9 +22,12 @@ threshold θ<sub>φ</sub>
 3) Correctness and completeness    
 
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
-## Usage (Code Explanation)
+## Usage (how to download and run)
+
+## Code Explanation(What does each java file do)
 
 ## Case Study
 
 ## Future Attribution
-Linear hotspot discovery can also be applied to other application domains. Certain types of crimes (e.g., assaults, street robbery) may form hotspots on transportation networks that represent roads needing more attention from police departments [4]. In addition, water quality changes on river networks may form hotspots that represent bursts of pollution [6].
+
+Simple path?
