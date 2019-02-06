@@ -9,4 +9,4 @@ Linear Hotspot is a line shape area of significant activity. Our [motivation](ht
 ## Case Study
 
 ## Future Attribution
-
+Linear hotspot discovery can also be applied to other application domains. Certain types of crimes (e.g., assaults, street robbery) may form hotspots on transportation networks that represent roads needing more attention from police departments [4]. In addition, water quality changes on river networks may form hotspots that represent bursts of pollution [6].
