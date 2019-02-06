@@ -21,8 +21,8 @@ where r<sub>i</sub> ≠ r<sub>j</sub>,
 threshold θ<sub>φ</sub>
 3) Correctness and completeness    
 
-See [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explaintion) for algorithm explaintion
-## Usage (Code Explaintion)
+See [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation
+## Usage (Code Explanation)
 
 ## Case Study
 
