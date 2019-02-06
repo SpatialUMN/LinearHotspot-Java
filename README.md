@@ -1,6 +1,6 @@
 # Significant Linear Hotspot Discovery
 ## Why Linear Hotspot
-Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment
+Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment.
 
 ## Problem Statement
 Given:
@@ -21,7 +21,7 @@ where r<sub>i</sub> ≠ r<sub>j</sub>,
 threshold θ<sub>φ</sub>
 3) Correctness and completeness    
 
-See [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation
+For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
 ## Usage (Code Explanation)
 
 ## Case Study
