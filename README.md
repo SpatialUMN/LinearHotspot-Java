@@ -24,7 +24,9 @@ threshold θ<sub>φ</sub>
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
 ## Usage (how to download and run)
 * Input data formate
-* 
+* IED(Eclipse)
+* Terminal
+
 ## Code Explanation(What does each java file do)
 * 
 
