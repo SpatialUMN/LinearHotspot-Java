@@ -5,18 +5,18 @@ Linear Hotspot is a line shape area of significant activity. Our [motivation](ht
 ## Problem Statement
 [Basic Concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem
 
-Given:
+**Given:**
 1) A spatial network G = (N, E) with a set of geo-referenced activities A, each if which is associated with an edge.
 2) A density ratio threshold,  θ<sub>λ
 3) A p-value threshold, θ<sub>p and the corresponding number of Monte Carlo simulations needed, m,
 
-Find:    
+**Find:**    
 All shortest paths r ∈ R with λ<sub>r</sub>≥ θ<sub>λ</sub>, p-value ≤  θ<sub>p
 
-Objective:  
+**Objective:**  
 Computational efficiency
 
-Constraints:
+**Constraints:**
 1) r<sub>i</sub> ∈ R is not a sub-path of r<sub>j</sub> ∈ R for ∀r<sub>i</sub>, r<sub>j</sub> ∈ R
 where r<sub>i</sub> ≠ r<sub>j</sub>,
 2) ∀r<sub>i</sub>  ∈ R is not shorter than a minimum distance (φ)
