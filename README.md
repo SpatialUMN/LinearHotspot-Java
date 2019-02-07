@@ -3,6 +3,8 @@
 Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment.
 
 ## Problem Statement
+[Basic Concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem
+
 Given:
 1) A spatial network G = (N, E) with a set of geo-referenced activities A, each if which is associated with an edge.
 2) A density ratio threshold,  θ<sub>λ
