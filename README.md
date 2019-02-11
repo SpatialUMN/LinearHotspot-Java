@@ -26,7 +26,7 @@ threshold θ<sub>φ</sub>
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
 ## Usage (how to download and run)
 * Input data format
-* IDE(Eclipse)
+* [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)
 * Terminal
 
 ## Code Explanation
