@@ -29,8 +29,8 @@ For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/
 * IDE(Eclipse)
 * Terminal
 
-## Code Explanation(What does each java file do)
-* 
+## Code Explanation
+[Java class diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) can help you understand the code structure.
 
 ## Case Study
 
