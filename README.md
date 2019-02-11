@@ -35,6 +35,5 @@ For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/
 
 ## Case Study
 
-## Future Attribution
-* Add-ons  
-Simple path?
+## Bug Report
+To search for or report bugs, please see LinearHotspot's [issues](https://github.com/SpatialUMN/LinearHotspot-Java/issues).
