@@ -31,6 +31,7 @@ Inputs are potential linear hotspots without statictic significent. Outputs are 
 [Java class diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) can help you understand the code structure.
 
 ## Case Study
+Please click [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study) to see a demonstration of this algorithm.  
 
 ## Bug Report
 To search for or report bugs, please see LinearHotspot's [issues](https://github.com/SpatialUMN/LinearHotspot-Java/issues).
