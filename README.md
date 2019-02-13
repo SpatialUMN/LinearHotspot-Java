@@ -12,9 +12,9 @@ For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/
 ### Input data format     
 #### Detect Potential Linear Hotspots  
 * We need 3 input files: `Node`, `Edge` and `Activity`.    
-`Node` is the road intersaction file that has three attributes: Node ID, Longitude and Latitude. Attributes are separated by `;`    
-`Edge` is the road segment file that has four attributes: Edge ID, Start node id, End node id, and Distance between start node and end node (weight). Attributes are separated by `;`  
-`Activity` is the car accident file (or whatever interesting events in the research) that has five attributes: Activity ID, Longitude, Latitude, Edge start node id and Edge end node id. The edge here is the one that contains the activity. Attributes are separated by `;`  
+[Node](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Node.txt) is the road intersaction file that has three attributes: Node ID, Longitude and Latitude. Attributes are separated by `;`    
+[Edge](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Edge.txt) is the road segment file that has four attributes: Edge ID, Start node id, End node id, and Distance between start node and end node (weight). Attributes are separated by `;`  
+[Activity](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Activity.txt) is the car accident file (or whatever interesting events in the research) that has five attributes: Activity ID, Longitude, Latitude, Edge start node id and Edge end node id. The edge here is the one that contains the activity. Attributes are separated by `;`  
 * The output file will contain potential linear hotspot road segment
 
 #### Detect Linear Hotspots
