@@ -8,11 +8,22 @@ You will get the shortest path between two activities. The shortest path has hig
 [Basic Concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem
   
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
-## Usage (how to download and run)
-* Input data format   
-`Node`  
-`Activity`  
-* [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
+## Usage   
+### Input data format     
+#### Detect Potential Linear Hotspots  
+* We need 3 input files: `Node`, `Edge` and `Activity`.    
+`Node` is the road intersaction file that has three attributes: Node ID, Longitude and Latitude. Attributes are separated by `;`    
+`Edge` is the road segment file that has four attributes: Edge ID, Start node id, End node id, and Distance between start node and end node (weight). Attributes are separated by `;`  
+`Activity` is the car accident file (or whatever interesting events in the research) that has five attributes: Activity ID, Longitude, Latitude, Edge start node id and Edge end node id. The edge here is the one that contains the activity. Attributes are separated by `;`  
+* The output file will contain potential linear hotspot road segment
+
+#### Detect Linear Hotspots
+* Input data format is the same as the output from the previous step  
+* Output
+
+
+### Download and Run  
+[How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
 ## Code Explanation
 [Java class diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) can help you understand the code structure.
