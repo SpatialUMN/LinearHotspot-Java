@@ -17,11 +17,12 @@ For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/
 [Activity](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Activity.txt) is the car accident file (or whatever interesting events in the research) that has five attributes: Activity ID, Longitude, Latitude, Edge start node id and Edge end node id. The edge here is the one that contains the activity. Attributes are separated by `;`  
 
 * The output file will contain potential linear hotspot road segment:   
-[PotentialLH](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/PotentialLH.txt) has five attributes: Activity 1 id, Activity 2 id, Shortest path between these two activities, Number of total activities on this shortest path and Length of this shortest path
+[PotentialLH](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/PotentialLH.txt) has 7 attributes: Activity 1 id, Activity 2 id,Cloest node to activity 1, Cloest node to activity2, Density ratio between two activities, Length of this shortest path and Number of total activities on this shortest path   
 
 #### Detect Linear Hotspots
-* Both input and output data format in this part are the same as the output from the previous step.  
-Inputs are potential linear hotspots without statictic significent. Outputs are linear hotspots.
+* We need 3 input files: `Node`,`Edge` and `PotentialLH`:  
+The formats are the same as the files mentioned in previous session with same names.  
+* The output file will contain linear hotspot road segment:  
 
 
 ### Download and Run  
