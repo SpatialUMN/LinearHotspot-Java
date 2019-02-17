@@ -28,8 +28,9 @@ The formats are the same as the files mentioned in previous session with same na
 ### Download and Run  
 [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
-
+* To detect potential linear hotspots:  
 After import project into Eclipse, find the [RunLinear.java]() file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file  
+* To detect linear hotsots:  
 
 ## Code Explanation
 [Java class diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) can help you understand the code structure.
