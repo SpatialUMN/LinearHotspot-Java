@@ -23,7 +23,7 @@ For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/
 * We need 3 input files: `Node`,`Edge` and `PotentialLH`:  
 The formats are the same as the files mentioned in previous session with same names.  
 * The output file contains linear hotspot road segment:    
-[Linear]()has 4 attributes:  
+[result]() has 4 attributes:  
 Activity 1 id, Activity 2 id, Shortest path between two activities and Density ratio
 
 
@@ -33,9 +33,11 @@ Activity 1 id, Activity 2 id, Shortest path between two activities and Density r
 * To detect potential linear hotspots:  
 After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file  
 * To detect linear hotsots:  
-Find the [GetHotspots.java]() file, change line 5 and 6.  
-Line 5 is the path to save all the gemerated activity files used for Monte Carlo simulation.  
-Line 6 is the number of time to run Monte Carlo simulation.  
+Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Line 6 `filenumber` and Line 7 `result`.  
+`outputActivityFilePrefix` is the path to save all the gemerated activity files used for Monte Carlo simulation.  
+`filenumber` is the number of time to run Monte Carlo simulation. 
+`result` is the path to save the final outcome of linear hotspots.  
+Then run GetHotspots.java file.  
 
 
 ## Code Explanation
@@ -46,3 +48,6 @@ Please click [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-S
 
 ## Bug Report
 To search for or report bugs, please see LinearHotspot's [issues](https://github.com/SpatialUMN/LinearHotspot-Java/issues).
+
+## Add-Ons
+* [Data Cleaning](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples)
