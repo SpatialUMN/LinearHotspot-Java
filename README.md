@@ -49,5 +49,9 @@ Please click [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-S
 ## Bug Report
 To search for or report bugs, please see LinearHotspot's [issues](https://github.com/SpatialUMN/LinearHotspot-Java/issues).
 
-## Add-Ons
-* [Data Cleaning](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples)
+## Use your own code  
+The linear hotspots detection process can be splited into small sessions. You can replace each session with your own code based on the method you need in your own project. Here is a list of session your can manipulate with.
+* [Data Cleaning](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file using your own data cleaning method.  
+* [StatisticMeasure](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file to define the "hotspots" in your project.  
+
+Here is a [list of variable]() you can use when you write your own code.  
