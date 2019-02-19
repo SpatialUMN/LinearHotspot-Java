@@ -5,8 +5,11 @@
 * [Input data format](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Input-data-format)  
   * [Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Generate-Information-for-Monte-Carlo-Simulation)  
   * [Detect Linear Hotspots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Detect-Linear-Hotspots)    
-* [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)
-
+* [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)  
+[Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
+[Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
+[Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)
+[Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)
 
 ***
 
@@ -35,9 +38,6 @@ The `Node` and `Edge` file formats are the same as the files mentioned in previo
 [result]() has 4 attributes:  
 Activity 1 id, Activity 2 id, Shortest path between two activities and Density ratio    
 
-
-
-
 ### Download and Run  
 [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
@@ -50,15 +50,6 @@ Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Li
 `result` is the path to save the final outcome of linear hotspots.  
 Then run GetHotspots.java file.  
 
-
-## Code Explanation
-[Java class diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) can help you understand the code structure.
-
-## Case Study
-Please click [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study) to see a demonstration of this algorithm.  
-
-## Bug Report
-To search for or report bugs, please see LinearHotspot's [issues](https://github.com/SpatialUMN/LinearHotspot-Java/issues).
 
 ## Use your own code  
 The linear hotspots detection process can be splited into small sessions. You can replace each session with your own code based on the method you need in your own project. Here is a list of session your can manipulate with.
