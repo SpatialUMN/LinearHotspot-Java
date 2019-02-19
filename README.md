@@ -6,6 +6,8 @@
     * [Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Generate-Information-for-Monte-Carlo-Simulation)  
     * [Detect Linear Hotspots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Detect-Linear-Hotspots)    
   * [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)   
+    * [To Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-Generate-Information-for-Monte-Carlo-Simulation)   
+    * [To detect linear hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
 
 * [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
 * [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
