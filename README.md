@@ -45,7 +45,10 @@ Activity 1 id, Activity 2 id, Shortest path between two activities and Density r
 #### [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
 #### To Generate Information for Monte Carlo Simulation:    
-Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Line 6 `filenumber` and Line 7 `result`.  
+Find the [GetHotspots.java]() file, change line 6 - 11   
+`nodePath`and`edgePath` are the path to your node and edge files.   
+`outputActivityFilePrefix` is the path to the folder that you will save all the generated activity files from Monte Carlo simulation.  
+Line 6 `filenumber` and Line 7 `result`.  
 `outputActivityFilePrefix` is the path to save all the gemerated activity files used for Monte Carlo simulation.  
 `filenumber` is the number of time to run Monte Carlo simulation. 
 `result` is the path to save the final outcome of linear hotspots.  
