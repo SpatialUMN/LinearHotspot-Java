@@ -9,7 +9,7 @@
 
 [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
 [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
-[Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)
+[Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)    
 [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)
 
 ***
