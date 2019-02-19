@@ -40,11 +40,11 @@ The `Node` and `Edge` file formats are the same as the files mentioned in previo
 Activity 1 id, Activity 2 id, Shortest path between two activities and Density ratio    
 
 ### Download and Run  
-[How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
+#### [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
-* To detect potential linear hotspots:  
+#### To detect potential linear hotspots:  
 After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file  
-* To detect linear hotsots:  
+#### To detect linear hotsots:  
 Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Line 6 `filenumber` and Line 7 `result`.  
 `outputActivityFilePrefix` is the path to save all the gemerated activity files used for Monte Carlo simulation.  
 `filenumber` is the number of time to run Monte Carlo simulation. 
