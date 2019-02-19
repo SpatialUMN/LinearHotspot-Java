@@ -42,14 +42,14 @@ Activity 1 id, Activity 2 id, Shortest path between two activities and Density r
 ### Download and Run  
 #### [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
-#### To detect potential linear hotspots:  
-After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file  
-#### To detect linear hotsots:  
+#### To Generate Information for Monte Carlo Simulation:    
 Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Line 6 `filenumber` and Line 7 `result`.  
 `outputActivityFilePrefix` is the path to save all the gemerated activity files used for Monte Carlo simulation.  
 `filenumber` is the number of time to run Monte Carlo simulation. 
 `result` is the path to save the final outcome of linear hotspots.  
-Then run GetHotspots.java file.  
+Then run GetHotspots.java file.    
+#### To detect linear hotsots:   
+After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file 
 
 
 ## Use your own code  
