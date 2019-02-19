@@ -7,7 +7,7 @@
     * [Detect Linear Hotspots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Detect-Linear-Hotspots)    
   * [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)   
     * [To Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-Generate-Information-for-Monte-Carlo-Simulation)   
-    * [To detect linear hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
+    * [To Detect Linear Hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
 
 * [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
 * [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
@@ -50,7 +50,7 @@ Find the [GetHotspots.java]() file, change line 5 `outputActivityFilePrefix`, Li
 `filenumber` is the number of time to run Monte Carlo simulation. 
 `result` is the path to save the final outcome of linear hotspots.  
 Then run GetHotspots.java file.    
-#### To detect linear hotsots:   
+#### To Detect Linear Hotsots:   
 After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file 
 
 
