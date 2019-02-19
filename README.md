@@ -54,4 +54,3 @@ The linear hotspots detection process can be splited into small sessions. You ca
 * [Data Cleaning](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file using your own data cleaning method.  
 * [StatisticMeasure](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file to define the "hotspots" in your project.  
 
-Here is a [list of variable]() you can use when you write your own code.  
