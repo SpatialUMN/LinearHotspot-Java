@@ -45,16 +45,18 @@ Activity 1 id, Activity 2 id, Shortest path between two activities and Density r
 #### [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
 
 #### To Generate Information for Monte Carlo Simulation:    
-Find the [GetHotspots.java]() file, change line 6 - 11   
+After import project into Eclipse, find the [GetHotspots.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/GetHotspots.java) file, change line 6 - 11   
 `nodePath`and`edgePath` are the path to your node and edge files.   
-`outputActivityFilePrefix` is the path to the folder that you will save all the generated activity files from Monte Carlo simulation.  
-Line 6 `filenumber` and Line 7 `result`.  
-`outputActivityFilePrefix` is the path to save all the gemerated activity files used for Monte Carlo simulation.  
+`outputActivityFilePrefix` is the path to the folder that you will save all the generated activity files from Monte Carlo simulation.   
 `filenumber` is the number of time to run Monte Carlo simulation. 
 `result` is the path to save the final outcome of linear hotspots.  
-Then run GetHotspots.java file.    
+`nNewActivities` is the number of total activities in your activity file.  
+`pValue` is the p-value that measure the significent of your hotspots.  
+
+Then run GetHotspots.java file.     
+
 #### To Detect Linear Hotsots:   
-After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file 
+Find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 4 and 5. Set the `activityPath` to your activity file that probably contain hotspots. Change `result` to where you want the final result to be put. Finally run RunLinear.java file 
 
 
 ## Use your own code  
