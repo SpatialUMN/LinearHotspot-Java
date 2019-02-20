@@ -62,7 +62,10 @@ After import project into Eclipse, find the [RunLinear.java](https://github.com/
 Here is a [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study) for your to understand what the code is doing.
 
 ## Bug Report   
-You can report Bug and ask question [here](https://github.com/SpatialUMN/LinearHotspot-Java/issues)
+You can report Bug and ask question [here](https://github.com/SpatialUMN/LinearHotspot-Java/issues)  
+
+## Code Explanation  
+Here is the Java code [diagram](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram) for you to understand the relationship between classes.   
 
 ## Use your own code  
 The linear hotspots detection process can be splited into small sessions. You can replace each session with your own code based on the method you need in your own project. Here is a list of session your can manipulate with.
