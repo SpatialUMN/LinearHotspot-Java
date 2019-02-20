@@ -23,9 +23,7 @@ threshold θ<sub>φ</sub>
 3) Correctness and completeness 
 
 
-## What can you get  
-You will get the shortest path between two activities. The shortest path has high density ratio that pass the threshold, so we can call it a potential hotspot. Then Monte Carlo simulation is executed. Those potential hotspots that have low p-value will get picked to be the linear hotspots.   
-![Linear](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/image/linear.PNG)  
+## Concept and algorithm   
 [Basic Concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem
   
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
@@ -60,6 +58,11 @@ Then run GetHotspots.java file.
 #### To Detect Linear Hotsots:   
 After import project into Eclipse, find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/src/RunLinear.java) file, change line 5, 6 and 7. Set the `nodePath`, `edgePath` and `activityPath` to your data file, and run RunLinear.java file 
 
+## Case Study    
+Here is a [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study) for your to understand what the code is doing.
+
+## Bug Report   
+You can report Bug and ask question [here](https://github.com/SpatialUMN/LinearHotspot-Java/issues)
 
 ## Use your own code  
 The linear hotspots detection process can be splited into small sessions. You can replace each session with your own code based on the method you need in your own project. Here is a list of session your can manipulate with.
