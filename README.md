@@ -1,23 +1,27 @@
 # Significant Linear Hotspot Discovery
-* [Why Linear Hotspot](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Why-Linear-Hotspot)  
-* [What can you get](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#What-can-you-get)  
-* [Usage](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Usage)
-  * [Input data format](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Input-data-format)  
-    * [Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Generate-Information-for-Monte-Carlo-Simulation)  
-    * [Detect Linear Hotspots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Detect-Linear-Hotspots)    
-  * [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)   
-    * [To Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-Generate-Information-for-Monte-Carlo-Simulation)   
-    * [To Detect Linear Hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
-
-* [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
-* [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
-* [Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)    
-* [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)
-
-***
 
 ## Why Linear Hotspot
-Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment.
+Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment.  
+
+## Problem Statement  
+**Given:**
+1) A spatial network G = (N, E) with a set of geo-referenced activities A, each if which is associated with an edge.
+2) A density ratio threshold,  θ<sub>λ
+3) A p-value threshold, θ<sub>p and the corresponding number of Monte Carlo simulations needed, m,
+
+**Find:**    
+All shortest paths r ∈ R with λ<sub>r</sub>≥ θ<sub>λ</sub>, p-value ≤  θ<sub>p
+
+**Objective:**  
+Computational efficiency
+
+**Constraints:**
+1) r<sub>i</sub> ∈ R is not a sub-path of r<sub>j</sub> ∈ R for ∀r<sub>i</sub>, r<sub>j</sub> ∈ R
+where r<sub>i</sub> ≠ r<sub>j</sub>,
+2) ∀r<sub>i</sub>  ∈ R is not shorter than a minimum distance (φ)
+threshold θ<sub>φ</sub>
+3) Correctness and completeness 
+
 
 ## What can you get  
 You will get the shortest path between two activities. The shortest path has high density ratio that pass the threshold, so we can call it a potential hotspot. Then Monte Carlo simulation is executed. Those potential hotspots that have low p-value will get picked to be the linear hotspots.   
