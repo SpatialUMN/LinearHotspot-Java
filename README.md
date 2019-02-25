@@ -13,6 +13,7 @@
 * [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
 * [Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)    
 * [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)
+* [Link to the Paper]()
 
 ***
 
