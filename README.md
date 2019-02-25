@@ -10,9 +10,9 @@
     * [To Detect Linear Hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
 
 * [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
-* [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)   
-* [Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)    
-* [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)
+* [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)    
+* [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)  
+* [Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)   
 * [Link to the Paper]()
 
 ***
