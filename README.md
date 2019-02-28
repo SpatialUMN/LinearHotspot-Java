@@ -1,21 +1,5 @@
 # Significant Linear Hotspot Discovery
-* [Why Linear Hotspot](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Why-Linear-Hotspot)  
-* [What Can You Get](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#What-can-you-get)  
-* [Usage](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Usage)
-  * [Input data format](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Input-data-format)  
-    * [Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Generate-Information-for-Monte-Carlo-Simulation)  
-    * [Detect Linear Hotspots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Detect-Linear-Hotspots)    
-  * [Download and Run](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Download-and-Run)   
-    * [To Generate Information for Monte Carlo Simulation](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-Generate-Information-for-Monte-Carlo-Simulation)   
-    * [To Detect Linear Hotsots](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#To-detect-linear-hotsots) 
 
-* [Code Explanation(java diagram)](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Java-Class-Diagram)  
-* [Case Study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study)    
-* [Use Your Own Code](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/README.md#Use-Your-Own-Code)  
-* [Bug Report](https://github.com/SpatialUMN/LinearHotspot-Java/issues)   
-* [Link to the Paper]()
-
-***
 
 ## Why Linear Hotspot
 Linear Hotspot is a line shape area of significant activity. Our [motivation](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Motivation-of-Developing-Linear-Hotspot-Detection-Method) of developing linear hotspot detection method is to identify accident prone road segment.
@@ -23,8 +7,7 @@ Linear Hotspot is a line shape area of significant activity. Our [motivation](ht
 ## What Can You Get  
 You will get the shortest path between two activities. The shortest path has high density ratio that pass the threshold, so we can call it a potential hotspot. Then Monte Carlo simulation is executed. Those potential hotspots that have low p-value will get picked to be the linear hotspots.   
 ![Linear](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/image/linear.PNG)  
-Basic [concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem
-  
+Basic [concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Concepts) can help better understanding the problem   
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
 ## Usage   
 ### Input data format     
@@ -64,4 +47,12 @@ Find the [RunLinear.java](https://github.com/SpatialUMN/LinearHotspot-Java/blob/
 The linear hotspots detection process can be splited into small sessions. You can replace each session with your own code based on the method you need in your own project. Here is a list of session your can manipulate with.
 * [Data Cleaning](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file using your own data cleaning method.  
 * [StatisticMeasure](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Add-On-Examples): Replace this file to define the "hotspots" in your project.  
+
+## Case Study  
+Here is a [case study](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Case-Study) help you understand the result better.  
+
+## Bug Report
+Ask questions and report bugs [here](https://github.com/SpatialUMN/LinearHotspot-Java/issues)     
+
+## [Link to the Paper]()
 
