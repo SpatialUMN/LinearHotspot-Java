@@ -27,7 +27,7 @@ Basic [concepts](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Basic-Con
   
 For academic users, see [here](https://github.com/SpatialUMN/LinearHotspot-Java/wiki/Algorithm-Explanation) for algorithm explanation.
 ## Usage   
-### Input data format     
+### Data format     
 #### Generate Information for Monte Carlo Simulation  
 * We need 2 input files: `Node` and `Edge`:    
 [Node](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Node.txt) is the road intersaction file that has three attributes: Node ID, Longitude and Latitude. Attributes are separated by `;`    
