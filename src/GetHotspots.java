@@ -3,9 +3,9 @@ import java.util.Arrays;
 
 
 public class GetHotspots {
-	public static String nodePath = "C:/Users/JingWe/Desktop/capstone/node_1000.txt";
-	public static String edgePath = "C:/Users/JingWe/Desktop/capstone/new_edge_1500.txt";
-	public static String outputActivityFilePrefix = "C:/Users/JingWe/Desktop/capstone/MCRandom/";
+	public static String nodePath = "path/to/your/node/file.txt";
+	public static String edgePath = "path/to/your/edge/file.txt";
+	public static String outputActivityFilePrefix = "path/to/a/folder/";
 	public static int filenumber = 20 ; // number of Monte Carlo Simulation
 	public static int nNewActivities = 100; // number of activities to be generated
 	public static double pValue = 0.1;
