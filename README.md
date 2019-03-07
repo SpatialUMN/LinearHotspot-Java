@@ -39,8 +39,8 @@ The `Node` and `Edge` file formats are the same as the files mentioned in previo
 [Activity](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/Activity.txt) is the car accident file (or whatever interesting events in the research) that has five attributes:   Activity ID, Longitude, Latitude, Edge start node id and Edge end node id. The edge here is the one that contains the activity. Attributes are separated by `;`  
 
 * The output file contains linear hotspot road segment:    
-[result]() has 4 attributes:  
-Activity 1 id, Activity 2 id, Shortest path between two activities and Density ratio    
+[result](https://github.com/SpatialUMN/LinearHotspot-Java/blob/master/SampleData/result) has 4 attributes:  
+Activities, Density ratio, P-value and Path      
 
 ### Download and Run  
 #### [How to import a GitHub project into Eclipse](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)  
