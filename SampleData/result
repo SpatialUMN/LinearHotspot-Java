@@ -1,0 +1,14 @@
+All pair shortest path costs = 7341
+SP tree hashmap size = 539
+SP path hashmap size = 539000
+
+Activities = 779,45 Density Ratio = 4.012123251315522 p-value = 0.006 path = 545,375
+Activities = 56,135 Density Ratio = 4.165050043644395 p-value = 0.005 path = 52,291
+Activities = 56,301 Density Ratio = 4.176566095292651 p-value = 0.005 path = 52,378
+Activities = 56,222 Density Ratio = 4.310241113861802 p-value = 0.004 path = 52,53
+Activities = 403,113 Density Ratio = 4.76326665485099 p-value = 0.003 path = 40,64
+Activities = 441,490 Density Ratio = 4.925521967752534 p-value = 0.002 path = 519,169
+Activities = 441,211 Density Ratio = 5.052560348758459 p-value = 0.001 path = 519,168
+Activities = 445,211 Density Ratio = 5.052562489666648 p-value = 0.001 path = 519,168
+
+activity pair costs = 1329
